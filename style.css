@@ -1,0 +1,57 @@
+body {
+    background-color: #eeeee4;
+}
+.snordle {
+    text-align: center; 
+    font-family: 'Didact Gothic'; 
+    font-size: 40px; font-weight: bold;
+    color: #21130d;
+    border-bottom: 1px solid #21130d;
+    margin: -10px;
+    padding: 10px;
+}
+.grid{
+    position: absolute;
+    top: 25vh;
+    left: 35vh;
+}
+.row {
+    width: 420px;
+    height: 25px;
+}
+.block {
+    background-color: white;
+    border: 2px solid #21130d;
+    font-family: 'Didact Gothic';
+    font-size: 23px;
+    text-align: center;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 10px;
+}
+.botbox {
+    background-color: white;
+    border: 2px solid #21130d;
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    font-size: 23px;
+    float: left;
+    font-family: 'Didact Gothic';
+    text-align: center;
+}
+.information {
+    background-color: white;
+    border: 2px solid #21130d;
+    font-family: 'Didact Gothic';
+    width: 500px;
+    height: 300px;
+    position: absolute; 
+    top: 52vh; 
+    right: 26.75vh;
+    word-wrap: break-word;
+    overflow: auto;
+}

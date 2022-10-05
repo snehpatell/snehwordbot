@@ -1,9 +1,81 @@
-<!doctype html>
 <html>
-  <head>
-    <title>handshake Owners - Go SkyInclude!</title>
-  </head>
-  <body>
-    <p>Welcome to the new interent go.skyinclude/!  <strong>Let's do this</strong> and make the internet <strong>the way</strong> it was meant to be.</p>
-  </body>
+<!DOCTYPE html>
+<html>
+    <title>Wordle Bot</title>
+    <head>
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css"></link>
+        <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+
+        <!--Java Script-->
+        <script src="C:\Users\snehp\OneDrive\Desktop\wordle bot\words.js"></script>
+        <script src="C:\Users\snehp\OneDrive\Desktop\wordle bot\main.js"></script>
+        
+        </script>
+    </head>
+    <body>  
+       <header class="snordle">snordle</header>
+
+       <h1 style="text-align: center; position:absolute; top: 15vh; left: 38.5vh; font-family: 'Didact Gothic';">Best word to use: SOARE</h1>
+       <div class="grid">
+        <div class="row">
+            <div id="W0box0" class="block"></div>
+            <div id="W0box1"class="block"></div>
+            <div id="W0box2"class="block"></div>
+            <div id="W0box3"class="block"></div>
+            <div id="W0box4"class="block"></div>
+        </div>
+        <div class="row">
+            <div id="W1box0"class="block"></div>
+            <div id="W1box1"class="block"></div>
+            <div id="W1box2"class="block"></div>
+            <div id="W1box3"class="block"></div>
+            <div id="W1box4"class="block"></div>
+        </div>      
+        <div class="row">
+            <div id="W2box0"class="block"></div>
+            <div id="W2box1"class="block"></div>
+            <div id="W2box2"class="block"></div>
+            <div id="W2box3"class="block"></div>
+            <div id="W2box4"class="block"></div>
+        </div>
+        <div class="row">
+            <div id="W3box0"class="block"></div>
+            <div id="W3box1"class="block"></div>
+            <div id="W3box2"class="block"></div>
+            <div id="W3box3"class="block"></div>
+            <div id="W3box4"class="block"></div>
+        </div>
+        <div class="row">
+            <div id="W4box0"class="block"></div>
+            <div id="W4box1"class="block"></div>
+            <div id="W4box2"class="block"></div>
+            <div id="W4box3"class="block"></div>
+            <div id="W4box4"class="block"></div>
+        </div>
+        <div class="row">
+            <div id="W5box0"class="block"></div>
+            <div id="W5box1"class="block"></div>
+            <div id="W5box2"class="block"></div>
+            <div id="W5box3"class="block"></div>
+            <div id="W5box4"class="block"></div>       
+        </div>
+    </div>
+
+    <div style="position: absolute;top: 20%;left: 50%; height: 70%; width: 0px; border: 1px solid;"></div>
+
+    <h1 style="text-align: center; position:absolute; top: 15vh; right: 38.5vh; font-family: 'Didact Gothic';">Sneh's Wordle Bot</h1>
+    <h2 style="text-align: center; position:absolute; top: 20vh; right: 15.5vh; font-family: 'Didact Gothic';">Format: Yellow = Y; Green = G; Grey = B (for bad); Ex. Ys1, Bo2, Ga3, etc</h2>
+    <div style="width:550px; height: 50px;position: absolute;top: 30vh;right: 23.5vh;">
+        <input class="botbox" type="text" id="box1" placeholder="1">
+        <input class="botbox" type="text" id="box2" placeholder="2">
+        <input class="botbox" type="text" id="box3" placeholder="3">
+        <input class="botbox" type="text" id="box4" placeholder="4">
+        <input class="botbox" type="text" id="box5" placeholder="5">
+        <button style="width: 200px; height: 50px; text-align: center;"onclick="removeWords()">Check Best Words</button>
+    </div>
+
+    <h2 style="text-align: center; position:absolute; top: 45vh; right: 45.5vh; font-family: 'Didact Gothic';">Information:</h2>
+    <div id="info" class="information"></div>
+    </body>
 </html>
