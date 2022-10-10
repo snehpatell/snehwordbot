@@ -199,7 +199,7 @@ var alphebet = ["z","y","x","w","v","u","t","s","r","q","p","o","n","m","l","k",
 var position = 0
 var rowposition = 0
 
-alert(wordleWord)
+//alert(wordleWord)
 document.addEventListener("keydown", (enta) => {
     if (enta.keyCode == 8 || enta.keyCode == 13 || (enta.keyCode >= 65 && enta.keyCode <= 90)) {
         if(enta.keyCode >= 65 && enta.keyCode <= 90){
