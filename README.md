@@ -1,4 +1,5 @@
-# Simple HTML Filee
+# Wordle Recreation & Wordle Bot
 
-This is a simple html file with zero configuration.
+Simple algorthym to solve *almost* every test case for wordle!
+Includes a wordle clone on the side.
 
